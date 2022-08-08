@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100vw;
+
+}
+
+.home-sub-container {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.home-card-div-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.home-card-div {
+    color: black;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}

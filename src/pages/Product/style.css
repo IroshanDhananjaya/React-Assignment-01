@@ -1,0 +1,48 @@
+.manage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.manage-sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+
+    border-radius: 10px;
+}
+
+.manage-form-title {
+    height: 10%;
+    align-items: center;
+}
+
+.manage-form-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+}
+
+.manage-form-btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10%;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.manage-form-detail-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 45%;
+}
